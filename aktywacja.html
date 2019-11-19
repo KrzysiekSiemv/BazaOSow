@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Jakieś tam meta-->
+        <meta charset="UTF-8" />
+        <meta name="author" content="KrzysiekSiemv" />
+        <meta name="description" content="Obrazy/dyski systemów operacyjnych wraz z kluczami aktywacji systemowych, bądź instrukcjami aktywacji w celach niekomercyjnych/pomocy naukowych." />
+        <meta name="keywords" content="windows, macos, linux, android, iso" />
+        <!--Link rele xD-->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/futura-renner" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="stylesheet.css"/>
+        <!--Skrypty-->
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!--Reszta-->
+        <title>Aktywacja - BazaOS'ów</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <i class="fab fa-apple"></i>
+            <h1>Baza OS'ów</h1>
+            <h3>Systemy operacyjne w jednym miejscu</h3>
+        </div>
+        <div class="menu">
+                <a href="index.html"> STRONA GLOWNA </a>
+                <a href="o-stronie.html"> O STRONIE </a>
+                <div class="dropdown">
+                    <a href="pobierz.html">POBIERZ</a>
+                    <div class="dropdown-content">
+                        <a href="pobierz/Windows.html">Windows</a>
+                        <a href="pobierz/macOS.html">macOS</a>
+                        <a href="pobierz/Linux.html">Ubuntu</a>
+                        <a href="pobierz/Android.html">Android</a>
+                    </div>
+                </div>
+                <a style="text-decoration: overline;"> AKTYWACJA </a>
+                <a href="#"> ZALECANE PROGRAMY </a>
+        </div>
+        <div class="header">
+            <h1>Klucze aktywacji oraz gotowe pliki batch aktywacji.</h1>
+            <i class="fab fa-windows"></i>
+            <p>NIE STOSOWAC AKTYWACJI W SYSTEMACH, KTÓRE SA STOSOWANE W CELACH KOMERCYJNYCH!</p>
+        </div>
+        <div class="select" style="text-align:left;">
+            <h2>Windows 10</h2>
+            <p>Windows 10 Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99</p>
+            <p>Windows 10 Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM</p>
+            <p>Windows 10 Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH</p>
+            <p>Windows 10 Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR</p>
+            <p>Windows 10 Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX</p>
+            <p>Windows 10 Pro N: MH37W-N47XK-V7XM9-C7227-GCQG9</p>
+            <p>Windows 10 Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2</p>
+            <p>Windows 10 Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ</p>
+            <p>Windows 10 Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43</p>
+            <p>Windows 10 Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</p>
+            <br>
+            <br>
+            <h2>Windows 8.1</h2>
+            <p>Windows 8.1 Core: M9Q9P-WNJJT-6PXPY-DWX8H-6XWKK</p>
+            <p>Windows 8.1 Core N: 7B9N3-D94CG-YTVHR-QBPX3-RJP64</p>
+            <p>Windows 8.1 Core Single Language: BB6NG-PQ82V-VRDPW-8XVD2-V8P66</p>
+            <p>Windows 8.1 Professional: GCRJD-8NW9H-F2CDX-CCM8D-9D6T9</p>
+            <p>Windows 8.1 Professional N: HMCNV-VVBFX-7HMBH-CTY9B-B4FXY</p>
+            <p>Windows 8.1 Professional WMC: 789NJ-TQK6T-6XTH8-J39CJ-J8D3P</p>
+            <p>Windows 8.1 Enterprise: MHF9N-XY6XB-WVXMC-BTDCT-MKKG7</p>
+            <p>Windows 8.1 Enterprise N: TT4HM-HN7YT-62K67-RGRQJ-JFFXW</p>
+            <br>
+            <br>
+            <h2>Windows 8</h2>
+            <p>Windows 8 Core: BN3D2-R7TKB-3YPBD-8DRP2-27GG4</p>
+            <p>Windows 8 Core Single Language: 2WN2H-YGCQR-KFX6K-CD6TF-84YXQ</p>
+            <p>Windows 8 Professional: NG4HW-VH26C-733KW-K6F98-J8CK4</p>
+            <p>Windows 8 Professional N: XCVCF-2NXM9-723PB-MHCB7-2RYQQ</p>
+            <p>Windows 8 Professional WMC: GNBB8-YVD74-QJHX6-27H4K-8QHDG</p>
+            <p>Windows 8 Enterprise: 32JNW-9KQ84-P47T8-D8GGY-CWCK7</p>
+            <p>Windows 8 Enterprise N: JMNMF-RHW7P-DMY6X-RF3DR-X2BQT</p>
+            <br>
+            <h1>-----</h1>
+            <p>Aby aktywowac system, potrzebujemy Wiersz Polecenia z uprawnieniami Administratora.</p>
+            <p>Po uruchomieniu cmd, wpisujemy kolejno komendy:</p>
+            <br>
+            <code>1. slmgr /ipk [KLUCZ]</code>
+            <br>
+            <code>2. slmgr /skms kms8.msguides.com</code>
+            <br>
+            <code>3. slmgr /ato</code>
+            <br>
+            <p>Działa tylko na Windows 10/8.1/8</p>
+            <h1>-----</h1>
+            <br>
+            <h2>Windows XP</h2>
+            <p>CDWVP-GBJRG-PDJRG-Y6CMB-HCGG3</p>
+            <p>4X7WM-GTH3D-DWVCV-H382J-HPMRD</p>
+            <p>C34VY-TJYXD-3BG2V-HYX8T-76CY6</p>
+            <p>TWHCC-DC33F-G4JJP-BTR2B-RKRYT</p>
+            <p>CRBH4-MXB2P-HP7V6-8YTMD-CBHJR</p>
+            <p>BMYY7-WH8QJ-6MTWG-MXXVQ-MD97B</p>
+            <p>G2JMP-2PC7G-RYBYX-PPF38-3KKTY</p>
+            <p>HBJFW-XJ7K3-34JDX-VPPTW-227G6</p>
+            <p>YXF2Y-QRRKR-BFKVQ-RHQ7H-DJPKD</p>
+            <p>VQD7P-3KK7H-M7VV2-CTXM4-MC7FW</p>
+            <p>3D2W3-8DJM6-YKQRB-B2XDB-TVQHF</p>
+            <p>RXKFJ-67HBV-84TD2-RMDK8-9BDMT</p>
+            <br>
+            <h2>Starsze systemy:</h2>
+            <p>Windows 2000 Professional SP3: XKMDP-BDBJ8-GTQD7-B78CG-KJ2Y8</p>
+            <p>Windows 98 Second Edition: H8J3X-9HQQG-DQXX7-6GFTJ-DF6MB</p>
+            <p>Windows 95: 22497-OEM-0024087-21953</p>
+        </div>
+        <div class="footer">
+            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
+            <div style="text-align:center">
+                    <a class="fab fa-github" href="https://github.com/KrzysiekSiemv"></a>
+                    <a class="fab fa-twitter" href="#"></a>
+            </div>
+        </div>
+    </body>
+</html>
