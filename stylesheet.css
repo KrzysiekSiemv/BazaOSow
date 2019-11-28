@@ -104,3 +104,7 @@ body {
 .select a:hover {
     color: rgb(74, 109, 239);
 }
+
+.select table td {
+  min-width: 120px;
+}
