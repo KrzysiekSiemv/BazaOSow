@@ -87,6 +87,13 @@ body {
     font-size: 128px;
 }
 
+.line {
+    width: 100%;
+    background-color: rgb(74, 109, 239);
+    padding: 1px;
+    margin: 8px 0px;
+}
+
 .download {
     padding: 8px 15%;
     text-align: left;
@@ -99,4 +106,35 @@ body {
         text-decoration: none;
         margin:8px;
         display: inline-block;
+    }
+
+    .select {
+        text-align: left;
+        margin: 32px;
+        padding: 8px 15%;
+    }
+    
+    .select i {
+        font-size: 36px;
+    }
+    
+    .select a {
+        margin: 32px;
+        font-size: 36px;
+        text-decoration: none;
+    }
+    
+    .select a:hover {
+        color: rgb(74, 109, 239);
+    }
+    
+    .select table td {
+      min-width: 120px;
+    }
+    
+    .line {
+        width: 100%;
+        background-color: rgb(74, 109, 239);
+        padding: 1px;
+        margin: 8px 0px;
     }

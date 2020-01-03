@@ -89,15 +89,20 @@ body {
     color: black;
 }
 
+
 .select {
-    text-align: center;
+    text-align: left;
     margin: 32px;
     padding: 8px 15%;
 }
 
+.select i {
+    font-size: 36px;
+}
+
 .select a {
     margin: 32px;
-    font-size: 256px;
+    font-size: 36px;
     text-decoration: none;
 }
 
@@ -107,4 +112,11 @@ body {
 
 .select table td {
   min-width: 120px;
+}
+
+.line {
+    width: 100%;
+    background-color: rgb(74, 109, 239);
+    padding: 1px;
+    margin: 8px 0px;
 }
