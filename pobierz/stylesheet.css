@@ -91,3 +91,12 @@ body {
     padding: 8px 15%;
     text-align: left;
 }
+
+    .download a {        
+        padding: 14px 16px;
+        color: white;
+        background-color: rgb(74, 109, 239);
+        text-decoration: none;
+        margin:8px;
+        display: inline-block;
+    }
