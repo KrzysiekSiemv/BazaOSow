@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background-color: #420240;
+    background-color: #5BC0DE;
     padding: 8px 15%;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .menu {
-    background-color: #420240;
+    background-color: #5BC0DE;
     padding: 8px 15%;
 }
 
@@ -44,7 +44,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #420240;
+    background-color: #5BC0DE;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 120px;
     z-index: 1;
@@ -75,7 +75,7 @@ body {
 }
 
 .footer {
-    background-color: #420240;
+    background-color: #5BC0DE;
     padding: 8px 15%;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .select a:hover {
-    color: #420240;
+    color: #5BC0DE;
 }
 
 .select table td {
@@ -116,7 +116,7 @@ body {
 
 .line {
     width: 100%;
-    background-color: #420240;
+    background-color: #5BC0DE;
     padding: 1px;
     margin: 8px 0px;
 }
