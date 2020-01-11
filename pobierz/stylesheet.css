@@ -14,8 +14,8 @@ body {
     padding: 8px 15%;
 }
 
-.navbar i {
-    font-size:60px;
+.navbar img {
+    height:64px;
     float:left;
     margin-right:16px;
 }
