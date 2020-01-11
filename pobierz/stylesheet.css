@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background-color: #bada55;
+    background-color: #420240;
     padding: 8px 15%;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .menu {
-    background-color: #bada55;
+    background-color: #420240;
     padding: 8px 15%;
 }
 
@@ -44,7 +44,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #bada55;
+    background-color: #420240;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 160px;
     z-index: 1;
@@ -63,7 +63,7 @@ body {
     display: block;
 }
 .footer {
-    background-color: #bada55;
+    background-color: #420240;
     padding: 8px 15%;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .line {
     width: 100%;
-    background-color: #bada55;
+    background-color: #420240;
     padding: 1px;
     margin: 8px 0px;
 }
@@ -102,7 +102,7 @@ body {
     .download a {        
         padding: 14px 16px;
         color: white;
-        background-color: #bada55;
+        background-color: #420240;
         text-decoration: none;
         margin:8px;
         display: inline-block;
@@ -125,7 +125,7 @@ body {
     }
     
     .select a:hover {
-        color: #bada55;
+        color: #420240;
     }
     
     .select table td {
@@ -134,7 +134,7 @@ body {
     
     .line {
         width: 100%;
-        background-color: #bada55;
+        background-color: #420240;
         padding: 1px;
         margin: 8px 0px;
     }
