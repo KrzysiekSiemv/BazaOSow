@@ -74,6 +74,11 @@ body {
     font-size: 128px;
 }
 
+.header img {
+    margin: 32px;
+    height: 128px;
+}
+
 .footer {
     background-color: #5BC0DE;
     padding: 8px 15%;
