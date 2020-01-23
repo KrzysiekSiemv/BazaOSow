@@ -1,59 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!--Jakieś tam meta-->
-        <meta charset="UTF-8" />
-        <meta name="author" content="KrzysiekSiemv" />
-        <meta name="description" content="Obrazy/dyski systemów operacyjnych wraz z kluczami aktywacji systemowych, bądź instrukcjami aktywacji w celach niekomercyjnych/pomocy naukowych." />
-        <meta name="keywords" content="windows, macos, linux, android, iso" />
-        <!--Link rele xD-->
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="https://krzysieksiemv.github.io/BazaOSow/pobierz/stylesheet.css"/>
-        <link rel="icon" href="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" type="image/png"/>
-        <!--Skrypty-->
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Krzysztof Smaga">
+        <!-- Skrypty, które nikogo nie obchodzą -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
-        <!--Reszta-->
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css" crossorigin="anonymous">
+        <!-- Inne -->
         <title>Windows 8 - BazaOS'ów</title>
     </head>
 
-    <body>
-        <div class="navbar">
-          <img src="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" />
-            <h1>Baza OS'ów</h1>
-            <h2>Systemy operacyjne w jednym miejscu</h2>
+    <body style="color: rgb(218, 215, 210); background-color: rgb(24,26,27);">
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>UWAGA!</strong> Ta strona jest jeszcze w fazie budowlanej. Może zawierać ona bugi lub inne błędy.
         </div>
-        <div class="menu">
-                <a href="https://krzysieksiemv.github.io/BazaOSow"> STRONA GLOWNA </a>
-                <a href="https://krzysieksiemv.github.io/BazaOSow/o-stronie"> O STRONIE </a>
-                <div class="dropdown">
-                    <a style="text-decoration: overline;">POBIERZ</a>
-                    <div class="dropdown-content">
-                        <a href="Windows">Windows</a> 
-                        <a href="macOS">macOS</a>
-                        <a href="Ubuntu">Ubuntu</a>
-                        <a href="Android">Android</a>
-                    </div>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">
+            <div class="container-sm">
+                <div class="row">
+                <div class="col"><a href="/" style="text-decoration: none; display: inline-block;"><i class="fab fa-windows" style="font-size: 64px; color: #007bff"></i><p class="display-4">BazaOS'ów</p><p>Systemy operacyjne w jednym miejscu</p></p></a></div>
+                <div class="col" style="margin: auto;">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Windows';" class="btn btn-primary"><i class="fab fa-windows"></i> Windows</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/macOS';" class="btn btn-primary"><i class="fab fa-apple"></i> macOS</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Ubuntu';" class="btn btn-primary"><i class="fab fa-ubuntu"></i> Ubuntu</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Android';" class="btn btn-primary"><i class="fab fa-android"></i> Android</button>
                 </div>
-                <a href="https://krzysieksiemv.github.io/BazaProgramow"> BAZA PROGRAMÓW </a>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="header">
-            <h1>Windows 8 / Windows Server 2012</h1>
-            <i class="fab fa-windows"></i>
+        <div class="container">
+            <h2>Wybierz wersję systemu</h2>
+            <br>
+            <h2>Windows 8</h2>
+            <div class="btn-group btn-group-lg">                
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=gX9Z&id=0B4BexBK2wUn9REo4Sko2RGZvb0k';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Pro 64-bit</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=9tNX&id=0B4BexBK2wUn9WDNsNmQ2NXB1ZEk';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Pro 32-bit</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=bIIs&id=0B4GKw2YLbcZadDF1Ym9KeW50T2c';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Enterprise 64-bit</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=LVQX&id=0B4GKw2YLbcZaM1BSRHJtaEtHNFE';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Enterprise 32-bit</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=GIRL&id=0B9noFsYBNJClRXNyQ1JvZzdrUlE';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Core 64-bit</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=cflD&id=0B43SmSJaBVvaQkpVTGNCSmktR2s';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Core 32-bit</button>
+            </div>
+            <br>
+            <br>
+            <h2>Windows Server 2012</h2>
+            <div class="btn-group btn-group-lg">               
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=nyZn&id=0B0JiwN86vJaCRW5jd1UwMUtQSms';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Standard</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=be4l&id=0BzkmSh7lO4wQeG5ad2thRVIwbjQ';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Essentials</button>
+            </div>            
         </div>
-        <div class="download">
-            <h1>Wybierz wersje: </h1>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=gX9Z&id=0B4BexBK2wUn9REo4Sko2RGZvb0k">Windows 8 Pro 64-bitowa</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=9tNX&id=0B4BexBK2wUn9WDNsNmQ2NXB1ZEk">Windows 8 Pro 32-bitowa</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=bIIs&id=0B4GKw2YLbcZadDF1Ym9KeW50T2c">Windows 8 Enterprise 64-bitowa</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=LVQX&id=0B4GKw2YLbcZaM1BSRHJtaEtHNFE">Windows 8 Enterprise 32-bitowa</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=GIRL&id=0B9noFsYBNJClRXNyQ1JvZzdrUlE">Windows 8 64-bitowa</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=cflD&id=0B43SmSJaBVvaQkpVTGNCSmktR2s">Windows 8 32-bitowa</a>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=nyZn&id=0B0JiwN86vJaCRW5jd1UwMUtQSms">Windows Server 2012 Standard</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=be4l&id=0BzkmSh7lO4wQeG5ad2thRVIwbjQ">Windows Server 2012 Essentials</a>
-            <br>
-            <br>
+        <br>
+        <br>
+        <div class="container">
             <h1>Wymagania sprzętowe</h1>
             <br>
             <h2>Windows 8</h2>
@@ -79,10 +85,7 @@
                   <tr> <th> Wyświetlacz <td> 1024 x 768 
                   <tr> <th> Połączenie internetowe <td> Połączenie z Internetem jest niezbędne do przeprowadzenia aktualizacji, pobierania i korzystania z niektórych funkcji. 
               </table>
-            <br>            
-            <h1>Screenshots</h1>
-            <p>Tutaj się pojawią screenshoty</p>
-            <br>
+            <br>    
             <br>
             <h1>Aktywacja</h1>
             <br>
@@ -111,30 +114,17 @@
             </table>
             <br>
             <h1>-----</h1>
-            <p>Aby aktywować system, potrzebujemy Wiersz Polecenia z uprawnieniami Administratora.</p>
-            <p>Po uruchomieniu cmd, wpisujemy kolejno komendy:</p>
-            <br>
+            <p>Aby aktywować system, potrzebujemy Wiersz Polecenia z uprawnieniami Administratora. Po uruchomieniu cmd, wpisujemy kolejno komendy:</p>
             <code>1. slmgr /ipk [KLUCZ]</code>
             <br>
             <code>2. slmgr /skms kms8.msguides.com</code>
             <br>
             <code>3. slmgr /ato</code>
-            <br>
             <h1>-----</h1>
         </div>
-        <div class="footer">
-            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
-            <div style="text-align:center">
-                    <a class="fab fa-github" href="https://krzysieksiemv.github.io/home"></a>
-            </div>
-            <div style="text-align:center">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="R6P8L2AMZ868W" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
+        <br>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">  
+            <a href="https://github.com/KrzysiekSiemv/" style="color: white; text-decoration: none;"><i class="fab fa-github" style="font-size: 32px"></i><p> Krzysztof 'KrzysiekSiemv' Smaga 2020</p></a>
         </div>
     </body>
 </html>

@@ -1,68 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!--Jakieś tam meta-->
-        <meta charset="UTF-8" />
-        <meta name="author" content="KrzysiekSiemv" />
-        <meta name="description" content="Obrazy/dyski systemów operacyjnych wraz z kluczami aktywacji systemowych, bądź instrukcjami aktywacji w celach niekomercyjnych/pomocy naukowych." />
-        <meta name="keywords" content="windows, macos, linux, android, iso" />
-        <!--Link rele xD-->
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="https://krzysieksiemv.github.io/BazaOSow/pobierz/stylesheet.css"/>
-        <link rel="icon" href="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" type="image/png"/>
-        <!--Skrypty-->
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Krzysztof Smaga">
+        <!-- Skrypty, które nikogo nie obchodzą -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
-        <!--Reszta-->
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css" crossorigin="anonymous">
+        <!-- Inne -->
         <title>Starsze systemy Windows - BazaOS'ów</title>
     </head>
 
-    <body>
-        <div class="navbar">
-            <img src="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" />
-            <h1>Baza OS'ów</h1>
-            <h2>Systemy operacyjne w jednym miejscu</h2>
+    <body style="color: rgb(218, 215, 210); background-color: rgb(24,26,27);">
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>UWAGA!</strong> Ta strona jest jeszcze w fazie budowlanej. Może zawierać ona bugi lub inne błędy.
         </div>
-        <div class="menu">
-                <a href="https://krzysieksiemv.github.io/BazaOSow"> STRONA GLOWNA </a>
-                <a href="https://krzysieksiemv.github.io/BazaOSow/o-stronie"> O STRONIE </a>
-                <div class="dropdown">
-                    <a style="text-decoration: overline;">POBIERZ</a>
-                    <div class="dropdown-content">
-                        <a href="Windows">Windows</a> 
-                        <a href="macOS">macOS</a>
-                        <a href="Ubuntu">Ubuntu</a>
-                        <a href="Android">Android</a>
-                    </div>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">
+            <div class="container-sm">
+                <div class="row">
+                <div class="col"><a href="/" style="text-decoration: none; display: inline-block;"><i class="fab fa-windows" style="font-size: 64px; color: #007bff"></i><p class="display-4">BazaOS'ów</p><p>Systemy operacyjne w jednym miejscu</p></p></a></div>
+                <div class="col" style="margin: auto;">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Windows';" class="btn btn-primary"><i class="fab fa-windows"></i> Windows</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/macOS';" class="btn btn-primary"><i class="fab fa-apple"></i> macOS</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Ubuntu';" class="btn btn-primary"><i class="fab fa-ubuntu"></i> Ubuntu</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Android';" class="btn btn-primary"><i class="fab fa-android"></i> Android</button>
                 </div>
-                <a href="https://krzysieksiemv.github.io/BazaProgramow"> BAZA PROGRAMÓW </a>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="header">
-            <h1>Starsze systemy Windows</h1>
-            <i class="fab fa-windows"></i>
+        <div class="container">
+            <h2>Wybierz wersję systemu</h2>
+            <br>
+            <h2>Starsze systemy Windows</h2>
+            <div class="btn-group btn-group-lg">                
+                <button onclick="location.href='https://drive.google.com/uc?id=0B-80UcbC6gpPTi1rXzdxMXN1ZFE&export=download';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 2000 Professional SP4</button>
+                <button onclick="location.href='https://winworldpc.com/download/c04d43f7-bf3d-11e8-9b71-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 98 SE</button>
+                <button onclick="location.href='https://winworldpc.com/download/c39e3567-1d6a-1a11-c3a6-e280947e5254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 95</button>
+                <button onclick="location.href='https://winworldpc.com/download/df61214c-cca9-11e7-a73f-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 95 z Microsoft Plus</button>
+            </div>
+            <br>
+            <br>
+            <div class="btn-group btn-group-lg">
+                <button onclick="location.href='https://winworldpc.com/download/3fc2b260-c2ac-18c3-9a11-c3a4e284a2ef/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> NT 4.0 SP1</button>
+                <button onclick="location.href='https://winworldpc.com/download/41720064-18c3-9a11-c3a4-e284a2c3a570/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> NT 3.51 SP1</button>
+            </div>
+            <br>
+            <br>
+            <div class="btn-group btn-group-lg">
+                <button onclick="location.href='https://winworldpc.com/download/2677c3b4-c2a8-5e40-11c3-a7c29d255254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 3.1</button>
+                <button onclick="location.href='https://winworldpc.com/download/7ec39246-24c2-b254-11c3-a4c2ac5a5404/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 3.0</button>
+                <button onclick="location.href='https://winworldpc.com/download/41c2813e-7918-c39a-11c3-a4e284a2c3a5/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 2.11</button>
+                <button onclick="location.href='https://winworldpc.com/download/70cc3f64-f438-11e8-9b71-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 1.04</button>
+            </div>
+            <br>
+            <br>
+            <h2>Boot disks</h2>
+            <div class="btn-group btn-group-lg">               
+                <button onclick="location.href='https://winworldpc.com/download/44c593c3-aac3-a025-c389-11c3a6e28094/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 95 RTM</button>
+                <button onclick="location.href='https://winworldpc.com/download/db57f85a-f039-11e7-a562-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 95 OSR2.x</button>
+                <button onclick="location.href='https://winworldpc.com/download/483dc393-4225-c389-11c3-a6e280947e52/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 98 FE</button>
+                <button onclick="location.href='https://winworldpc.com/download/49c380c2-a9c3-af25-c389-11c3a6e28094/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 98 SE</button>
+                <button onclick="location.href='https://winworldpc.com/download/4b315955-25c3-8911-c3a6-e280947e5254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 2000</button>
+            </div>            
         </div>
-        <div class="download">
-            <h1>Wybierz wersje: </h1>
-            <br>
-            <a href="https://drive.google.com/uc?id=0B-80UcbC6gpPTi1rXzdxMXN1ZFE&export=download">Windows 2000 Professional SP4 - PL</a>
-            <a href="https://winworldpc.com/download/c04d43f7-bf3d-11e8-9b71-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 98 Second Edition - PL</a>
-            <a href="https://winworldpc.com/download/c39e3567-1d6a-1a11-c3a6-e280947e5254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 95 - PL</a>
-            <a href="https://winworldpc.com/download/df61214c-cca9-11e7-a73f-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 95 wraz z Microsoft Plus - EN</a>
-            <a href="https://winworldpc.com/download/3fc2b260-c2ac-18c3-9a11-c3a4e284a2ef/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows NT 4.0 SP1 - PL</a>
-            <a href="https://winworldpc.com/download/41720064-18c3-9a11-c3a4-e284a2c3a570/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows NT 3.51 SP1 - EN</a>
-            <a href="https://winworldpc.com/download/2677c3b4-c2a8-5e40-11c3-a7c29d255254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 3.1 - PL</a>            
-            <a href="https://winworldpc.com/download/7ec39246-24c2-b254-11c3-a4c2ac5a5404/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 3.0 - PL</a>
-            <a href="https://winworldpc.com/download/41c2813e-7918-c39a-11c3-a4e284a2c3a5/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 2.11/386 - EN</a>
-            <a href="https://winworldpc.com/download/70cc3f64-f438-11e8-9b71-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 1.04 - EN</a>
-            <br>
-            <h1>Boot disks: </h1>
-            <br>
-            <a href="https://winworldpc.com/download/44c593c3-aac3-a025-c389-11c3a6e28094/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 95 RTM</a>
-            <a href="https://winworldpc.com/download/db57f85a-f039-11e7-a562-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 95 OSR2.x</a>
-            <a href="https://winworldpc.com/download/483dc393-4225-c389-11c3-a6e280947e52/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 98 FE</a>
-            <a href="https://winworldpc.com/download/49c380c2-a9c3-af25-c389-11c3a6e28094/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 98 SE</a>
-            <a href="https://winworldpc.com/download/4b315955-25c3-8911-c3a6-e280947e5254/from/c3ae6ee2-8099-713d-3411-c3a6e280947e">Windows 2000</a>
-            <br>
-            <br>
+        <br>
+        <br>
+        <div class="container">
             <h1>Wymagania sprzętowe</h1>
             <br>
             <h2>Windows 2000</h2>
@@ -149,10 +161,7 @@
                                 <tr> <th> Miejsce na dysku twardym <td> 5 MB
                                 <tr> <th> MS-DOS <td> 3.1 lub wyżej 
                             </table>
-            <br>            
-            <h1>Screenshots</h1>
-            <p>Tutaj się pojawią screenshoty</p>
-            <br>
+            <br>    
             <br>
             <h1>Aktywacja</h1>
             <br>
@@ -165,19 +174,9 @@
                   <tr> <th> Windows NT 4.0 <td> 419-1343253
               </table>
         </div>
-        <div class="footer">
-            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
-            <div style="text-align:center">
-                    <a class="fab fa-github" href="https://krzysieksiemv.github.io/home"></a>
-            </div>
-            <div style="text-align:center">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="R6P8L2AMZ868W" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
+        <br>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">  
+            <a href="https://github.com/KrzysiekSiemv/" style="color: white; text-decoration: none;"><i class="fab fa-github" style="font-size: 32px"></i><p> Krzysztof 'KrzysiekSiemv' Smaga 2020</p></a>
         </div>
     </body>
 </html>

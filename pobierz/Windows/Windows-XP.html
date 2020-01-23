@@ -1,66 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!--Jakieś tam meta-->
-        <meta charset="UTF-8" />
-        <meta name="author" content="KrzysiekSiemv" />
-        <meta name="description" content="Obrazy/dyski systemów operacyjnych wraz z kluczami aktywacji systemowych, bądź instrukcjami aktywacji w celach niekomercyjnych/pomocy naukowych." />
-        <meta name="keywords" content="windows, macos, linux, android, iso" />
-        <!--Link rele xD-->
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="https://krzysieksiemv.github.io/BazaOSow/pobierz/stylesheet.css"/>
-        <link rel="icon" href="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" type="image/png"/>
-        <!--Skrypty-->
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Krzysztof Smaga">
+        <!-- Skrypty, które nikogo nie obchodzą -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
-        <!--Reszta-->
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css" crossorigin="anonymous">
+        <!-- Inne -->
         <title>Windows XP - BazaOS'ów</title>
     </head>
 
-    <body>
-        <div class="navbar">
-            <img src="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" />
-            <h1>Baza OS'ów</h1>
-            <h2>Systemy operacyjne w jednym miejscu</h2>
+    <body style="color: rgb(218, 215, 210); background-color: rgb(24,26,27);">
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>UWAGA!</strong> Ta strona jest jeszcze w fazie budowlanej. Może zawierać ona bugi lub inne błędy.
         </div>
-        <div class="menu">
-                <a href="https://krzysieksiemv.github.io/BazaOSow"> STRONA GLOWNA </a>
-                <a href="https://krzysieksiemv.github.io/BazaOSow/o-stronie"> O STRONIE </a>
-                <div class="dropdown">
-                    <a style="text-decoration: overline;">POBIERZ</a>
-                    <div class="dropdown-content">
-                        <a href="Windows">Windows</a> 
-                        <a href="macOS">macOS</a>
-                        <a href="Ubuntu">Ubuntu</a>
-                        <a href="Android">Android</a>
-                    </div>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">
+            <div class="container-sm">
+                <div class="row">
+                <div class="col"><a href="/" style="text-decoration: none; display: inline-block;"><i class="fab fa-windows" style="font-size: 64px; color: #007bff"></i><p class="display-4">BazaOS'ów</p><p>Systemy operacyjne w jednym miejscu</p></p></a></div>
+                <div class="col" style="margin: auto;">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Windows';" class="btn btn-primary"><i class="fab fa-windows"></i> Windows</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/macOS';" class="btn btn-primary"><i class="fab fa-apple"></i> macOS</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Ubuntu';" class="btn btn-primary"><i class="fab fa-ubuntu"></i> Ubuntu</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Android';" class="btn btn-primary"><i class="fab fa-android"></i> Android</button>
                 </div>
-                <a href="https://krzysieksiemv.github.io/BazaProgramow"> BAZA PROGRAMÓW </a>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="header">
-            <h1>Windows XP / Windows Server 2003</h1>
-            <i class="fab fa-windows"></i>
+        <div class="container">
+            <h2>Wybierz wersję systemu</h2>
+            <br>
+            <h2>Windows XP</h2>
+            <div class="btn-group btn-group-lg">                
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=12_H&id=0B8Dyz0SssKO-SEM2ZWlXRFJ5Zms';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Professional SP2</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=Pk-l&id=0B8Dyz0SssKO-alI1Y1VUYm5KVm8';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Professional</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=O0ug&id=0Bx3SCkHWvr1Rdkg4MEVrS0tfVEU';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Home Edition SP3</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=0fr5&id=0B8Dyz0SssKO-RUFhOE9vLVBZMVU';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Home Edition SP2</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=8brY&id=0B8Dyz0SssKO-eXlHcmh2ek5pbjA';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Home Edition</button>    
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=In1p&id=0B-RzT-j625xDWUhBVUtVOUM2ZTg';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> SP1</button>    
+            </div>
+            <br>
+            <br>
+            <h2>Windows Server 2003</h2>
+            <div class="btn-group btn-group-lg">               
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=WBvV&id=0B-80UcbC6gpPZWpOSVVNYjk4cGs';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> r2 Standard cd.1</button>
+                <button onclick="location.href='https://doc-0s-88-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ftibec16ptsvbjq2173p8t6aotfnj07f/1574956800000/17422440737213463649/*/0B4BexBK2wUn9SFphb3ZkQWwxQTg?e=download';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> r2 Standard cd.2</button>
+                <button onclick="location.href='https://mega.nz/#!fJNiXKjI!Lr3YrToTeQ1IO00qHhQspwG0Q86m1_vMIBMseErgl2o';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> r2 Enterprise cd.1</button>
+                <button onclick="location.href='https://mega.nz/#!fVlkVZyA!jE7IHl1Ow2iqkzvlrH6MjvTNfjIEkMy8XaQsYvKpJJw';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> r2 Enterprise cd.2</button>
+            </div>
+            <div class="btn-group btn-group-lg">
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=1A7Z&id=0B-80UcbC6gpPZXQzWVdxcWs4SEE';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Standard</button>
+                <button onclick="location.href='https://mega.nz/#!3A9wBK7L!yO22EqiW9Nf1cZV2dlM-Wc8ERh0gYKMWP8G43X9S5qA';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Enterprise</button>
+            </div>            
         </div>
-        <div class="download">
-            <h1>Wybierz wersje: </h1>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=12_H&id=0B8Dyz0SssKO-SEM2ZWlXRFJ5Zms">Windows XP Professional SP2</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=Pk-l&id=0B8Dyz0SssKO-alI1Y1VUYm5KVm8">Windows XP Professional</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=O0ug&id=0Bx3SCkHWvr1Rdkg4MEVrS0tfVEU">Windows XP Home Edition SP3</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=0fr5&id=0B8Dyz0SssKO-RUFhOE9vLVBZMVU">Windows XP Home Edition SP2</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=8brY&id=0B8Dyz0SssKO-eXlHcmh2ek5pbjA">Windows XP Home Edition</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=In1p&id=0B-RzT-j625xDWUhBVUtVOUM2ZTg">Windows XP SP1</a>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=WBvV&id=0B-80UcbC6gpPZWpOSVVNYjk4cGs">Windows Server 2003 r2 Standard cd.1</a>
-            <a href="https://doc-0s-88-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ftibec16ptsvbjq2173p8t6aotfnj07f/1574956800000/17422440737213463649/*/0B4BexBK2wUn9SFphb3ZkQWwxQTg?e=download">Windows Server 2003 r2 Standard cd.2</a>
-            <br>
-            <a href="https://mega.nz/#!fJNiXKjI!Lr3YrToTeQ1IO00qHhQspwG0Q86m1_vMIBMseErgl2o">Windows Server 2003 r2 Enterprise cd.1</a>
-            <a href="https://mega.nz/#!fVlkVZyA!jE7IHl1Ow2iqkzvlrH6MjvTNfjIEkMy8XaQsYvKpJJw">Windows Server 2003 r2 Enterprise cd.2</a>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=1A7Z&id=0B-80UcbC6gpPZXQzWVdxcWs4SEE">Windows Server 2003 Standard</a>
-            <a href="https://mega.nz/#!3A9wBK7L!yO22EqiW9Nf1cZV2dlM-Wc8ERh0gYKMWP8G43X9S5qA">Windows Server 2003 Enterprise</a>
-            <br>
-            <br>
-            <h1>Wymagania sprzętowe</h1>
+        <br>
+        <br>
+        <div class="container">
+        <h1>Wymagania sprzętowe</h1>
             <br>
             <h2>Windows XP</h2>
             <br>
@@ -85,10 +91,7 @@
                   <tr> <th> Wyświetlacz <td> 800 x 600 
                   <tr> <th> Połączenie internetowe <td> Połączenie z Internetem jest niezbędne do przeprowadzenia aktualizacji, pobierania i korzystania z niektórych funkcji. 
               </table>
-            <br>            
-            <h1>Screenshots</h1>
-            <p>Tutaj się pojawią screenshoty</p>
-            <br>
+            <br>    
             <br>
             <h1>Aktywacja</h1>
             <br>
@@ -109,19 +112,9 @@
                 <tr> <td> RXKFJ-67HBV-84TD2-RMDK8-9BDMT
             </table>
         </div>
-        <div class="footer">
-            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
-            <div style="text-align:center">
-                    <a class="fab fa-github" href="https://krzysieksiemv.github.io/home"></a>
-            </div>
-            <div style="text-align:center">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="R6P8L2AMZ868W" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
+        <br>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">  
+            <a href="https://github.com/KrzysiekSiemv/" style="color: white; text-decoration: none;"><i class="fab fa-github" style="font-size: 32px"></i><p> Krzysztof 'KrzysiekSiemv' Smaga 2020</p></a>
         </div>
     </body>
 </html>

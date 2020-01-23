@@ -1,61 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!--Jakieś tam meta-->
-        <meta charset="UTF-8" />
-        <meta name="author" content="KrzysiekSiemv" />
-        <meta name="description" content="Obrazy/dyski systemów operacyjnych wraz z kluczami aktywacji systemowych, bądź instrukcjami aktywacji w celach niekomercyjnych/pomocy naukowych." />
-        <meta name="keywords" content="windows, macos, linux, android, iso" />
-        <!--Link rele xD-->
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="https://krzysieksiemv.github.io/BazaOSow/pobierz/stylesheet.css"/>
-        <link rel="icon" href="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" type="image/png"/>
-        <!--Skrypty-->
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Krzysztof Smaga">
+        <!-- Skrypty, które nikogo nie obchodzą -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
-        <!--Reszta-->
-        <title>Windows 10 - BazaOS'ów</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css" crossorigin="anonymous">
+        <!-- Inne -->
+        <title>BazaOS'ów</title>
     </head>
 
-    <body>
-        <div class="navbar">
-          <img src="https://krzysieksiemv.github.io/BazaOSow/resources/icons/osbase.png" />
-            <h1>Baza OS'ów</h1>
-            <h3>Systemy operacyjne w jednym miejscu</h3>
+    <body style="color: rgb(218, 215, 210); background-color: rgb(24,26,27);">
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>UWAGA!</strong> Ta strona jest jeszcze w fazie budowlanej. Może zawierać ona bugi lub inne błędy, takie jak nie działające przyciski do pobierania.
         </div>
-        <div class="menu">
-                <a href="https://krzysieksiemv.github.io/BazaOSow"> STRONA GLOWNA </a>
-                <a href="https://krzysieksiemv.github.io/BazaOSow/o-stronie"> O STRONIE </a>
-                <div class="dropdown">
-                    <a style="text-decoration: overline;">POBIERZ</a>
-                    <div class="dropdown-content">
-                        <a href="Windows">Windows</a> 
-                        <a href="macOS">macOS</a>
-                        <a href="Ubuntu">Ubuntu</a>
-                        <a href="Android">Android</a>
-                    </div>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">
+            <div class="container-sm">
+                <div class="row">
+                <div class="col"><a href="/" style="text-decoration: none; display: inline-block;"><i class="fab fa-windows" style="font-size: 64px; color: #007bff"></i><p class="display-4">BazaOS'ów</p><p>Systemy operacyjne w jednym miejscu</p></p></a></div>
+                <div class="col" style="margin: auto;">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Windows';" class="btn btn-primary"><i class="fab fa-windows"></i> Windows</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/macOS';" class="btn btn-primary"><i class="fab fa-apple"></i> macOS</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Ubuntu';" class="btn btn-primary"><i class="fab fa-ubuntu"></i> Ubuntu</button>
+                    <button type="button" onclick="location.href='https://krzysieksiemv.github.io/BazaOSow/pobierz/Android';" class="btn btn-primary"><i class="fab fa-android"></i> Android</button>
                 </div>
-                <a href="https://krzysieksiemv.github.io/BazaProgramow"> BAZA PROGRAMÓW </a>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="header">
-            <h1>Windows 10 / Windows Server 2016/2019</h1>
-            <i class="fab fa-windows"></i>
+        <div class="container">
+            <h2>Wybierz wersję systemu</h2>
+            <br>
+            <h2>Windows 10</h2>
+            <div class="btn-group btn-group-lg">                
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=kzpl&id=1OKOgU_BJtvrqL8eM9QYFjc7y9pN1OWSN';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 64-bit (May 2019)</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=g-aM&id=1NymEeCqKWN1ysSI5CkeOS9MdxBr1-8cX';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 32-bit (May 2019)</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=JzKr&id=1zaFdPUyyUElse8UB66svE2KCW01Yu2jN';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 64-bit (October 2018)</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=4lgF&id=1TwetRpEuXjGWYNU3jIw6asL88SzUihLX';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> 32-bit (October 2018)</button>
+            </div>
+            <br>
+            <br>
+            <h2>Windows Server 2019</h2>
+            <div class="btn-group btn-group-lg">                
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=Jjq7&id=1jdyJcFsPQf5bKBzZ8wcze1uTgUqU85vj';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Standard</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=pCdE&id=1qLGnbSzSaTiFaXJlY29P472wlrycOTnG';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Essentials</button>
+            </div>
+            <br>
+            <br>
+            <h2>Windows Server 2016</h2>
+            <div class="btn-group btn-group-lg">               
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=FfD1&id=0B0JiwN86vJaCOU44eHNvRUswLUU';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Standard</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=QMq6&id=0ByJoz7aQDCqdc3RweEZsSTRHTGc';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Essentials</button>
+                <button onclick="location.href='https://drive.google.com/uc?export=download&confirm=6WAH&id=0B0JiwN86vJaCNWFjT0xxQVQ3R0E';" class="btn btn-primary" style="text-decoration: none;"><i class="fab fa-windows"></i> Storage</button>
+            </div>            
         </div>
-        <div class="download">
-            <h1>Wybierz wersje: </h1>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=kzpl&id=1OKOgU_BJtvrqL8eM9QYFjc7y9pN1OWSN">Windows 10 64-bitowa (May 2019 Update)</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=g-aM&id=1NymEeCqKWN1ysSI5CkeOS9MdxBr1-8cX">Windows 10 32-bitowa (May 2019 Update)</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=JzKr&id=1zaFdPUyyUElse8UB66svE2KCW01Yu2jN">Windows 10 64-bitowa (October 2018 Update)</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=4lgF&id=1TwetRpEuXjGWYNU3jIw6asL88SzUihLX">Windows 10 32-bitowa (October 2018 Update)</a>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=Jjq7&id=1jdyJcFsPQf5bKBzZ8wcze1uTgUqU85vj">Windows Server 2019 Standard</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=pCdE&id=1qLGnbSzSaTiFaXJlY29P472wlrycOTnG">Windows Server 2019 Essentials</a>
-            <br>
-            <a href="https://drive.google.com/uc?export=download&confirm=FfD1&id=0B0JiwN86vJaCOU44eHNvRUswLUU">Windows Server 2016 Standard</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=QMq6&id=0ByJoz7aQDCqdc3RweEZsSTRHTGc">Windows Server 2016 Essentials</a>
-            <a href="https://drive.google.com/uc?export=download&confirm=6WAH&id=0B0JiwN86vJaCNWFjT0xxQVQ3R0E">Windows Storage Server 2016</a>
-            <br>
-            <br>
+        <br>
+        <br>
+        <div class="container">
             <h1>Wymagania sprzętowe</h1>
             <br>
             <h2>Windows 10</h2>
@@ -81,9 +91,7 @@
                   <tr> <th> Wyświetlacz <td> 1024 x 768 
                   <tr> <th> Połączenie internetowe <td> Połączenie z Internetem jest niezbędne do przeprowadzenia aktualizacji, pobierania i korzystania z niektórych funkcji. 
               </table>
-            <br>            
-            <h1>Screenshots</h1>
-            <p>Tutaj się pojawią screenshoty</p>
+            <br>        
             <br>
             <br>
             <h1>Aktywacja</h1>
@@ -118,30 +126,19 @@
                   </table>
             <br>
             <h1>-----</h1>
-            <p>Aby aktywować system, potrzebujemy Wiersz Polecenia z uprawnieniami Administratora.</p>
-            <p>Po uruchomieniu cmd, wpisujemy kolejno komendy:</p>
-            <br>
+            <p>Aby aktywować system, potrzebujemy Wiersz Polecenia z uprawnieniami Administratora.
+                Po uruchomieniu cmd, wpisujemy kolejno komendy:
+            </p>
             <code>1. slmgr /ipk [KLUCZ]</code>
             <br>
             <code>2. slmgr /skms kms8.msguides.com</code>
             <br>
             <code>3. slmgr /ato</code>
-            <br>
-            <h1>-----</h1>
+            <h1>-----</h1>    
         </div>
-        <div class="footer">
-            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
-            <div style="text-align:center">
-                    <a class="fab fa-github" href="https://krzysieksiemv.github.io/home"></a>
-            </div>
-            <div style="text-align:center">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="R6P8L2AMZ868W" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
+        <br>
+        <div class="jumbotron text-center" style="background-color: rgb(30, 32, 34);">  
+            <a href="https://github.com/KrzysiekSiemv/" style="color: white; text-decoration: none;"><i class="fab fa-github" style="font-size: 32px"></i><p> Krzysztof 'KrzysiekSiemv' Smaga 2020</p></a>
         </div>
     </body>
 </html>
